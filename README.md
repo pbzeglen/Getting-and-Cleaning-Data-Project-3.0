@@ -9,3 +9,5 @@ Provided is the "Step.R" script file. Here is a step by step explanation of what
 7. It then casts those activities as a factor, and replaces the numbers with the labels given in "activity_labels.txt". (Lines 30-33) <br />
 8. It combines the testing and training dataframes (Line 36) <br />
 9. It melts and recasts the dataframe as tidyData, finding the mean of every column, grouped by Subject and Activity. (Lines 37-39) <br />
+
+t's in front of variables indicate a three dimensional vector, whereas f's indicate the variable was a result of a fourier transform. "Acc" is short for accelerator and "Gyro" is short for gyroscope and "Mag" is short for Magnitude.
